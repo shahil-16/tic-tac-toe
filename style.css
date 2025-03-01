@@ -38,11 +38,39 @@ body{
     background-color: rgb(57, 59, 45);
 }
 
-#reset{
+#reset-btn{
     padding: 1rem;
     font-size: 1.25rem;
     color: aquamarine;
     background-color: black;
     border-radius: 1rem;
     border: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: aquamarine;
+    background-color: black;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: rgb(189, 245, 245);
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none ;
 }
